@@ -1,0 +1,29 @@
+@using System.Timers
+@implements IDisposable
+@page "/testPage"
+
+<h1>Test Page</h1>
+
+<p>@message</p>
+
+<p>Now Time: [@nowTime]</p>
+
+@code {
+    private String message = "This is test page.";
+    private String nowTime = DateTime.Now.ToString();
+    private Timer timer;
+    protected override void OnInitialized()
+    {
+        timer = new Timer(1000);
+        timer.Elapsed += (sender, e) =>
+        {
+            nowTime = DateTime.Now.ToString();
+            StateHasChanged();
+        };
+        timer.Start();
+    }
+
+    public void Dispose() {
+        timer.Stop();
+    }
+}
