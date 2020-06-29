@@ -28,3 +28,7 @@ Blazor WebAssemblyのテンプレートをベースに作成しているサン�
 ### 参考URL
 ASP.NET Core Blazor の概要  
 https://docs.microsoft.com/ja-jp/aspnet/core/blazor/?view=aspnetcore-3.1
+
+本コードの解説は以下のQiita記事を参照お願いします。  
+**「Blazor WebAssemblyを試してみる」**  
+https://qiita.com/y_ussie/items/ea290239ee4824c8b647
