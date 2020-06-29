@@ -4,6 +4,8 @@ Blazor WebAssemblyのテンプレートをベースに作成しているサン�
 以下の手順でテンプレートから作成したアプリに独自サンプルを追加しています。  
 現在は、`/testPage`にアクセスすると1秒更新の時計が表示されます。
 
+![サンプル画面](/dotnetcore-blazorwasp-sample_1.png)
+
 #### テンプレートからのアプリ作成方法（参考）
 1. .NET Core 3.1 SDKをインストール
 2. Blazor WebAssemblyのテンプレート最新をインストール  
