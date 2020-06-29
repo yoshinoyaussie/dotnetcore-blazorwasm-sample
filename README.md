@@ -1,7 +1,10 @@
 # dotnetcore-blazorwasm-sample
 Blazor WebAssemblyのテンプレートをベースに作成しているサンプルアプリです。
 
-### テンプレートからのアプリ作成
+以下の手順でテンプレートから作成したアプリに独自サンプルを追加しています。  
+現在は、`/testPage`にアクセスすると1秒更新の時計が表示されます。
+
+#### テンプレートからのアプリ作成方法（参考）
 1. .NET Core 3.1 SDKをインストール
 2. Blazor WebAssemblyのテンプレート最新をインストール  
 `dotnet new --install Microsoft.AspNetCore.Components.WebAssembly.Templates::3.2.0`
@@ -23,4 +26,3 @@ Blazor WebAssemblyのテンプレートをベースに作成しているサン�
 ### 参考URL
 ASP.NET Core Blazor の概要  
 https://docs.microsoft.com/ja-jp/aspnet/core/blazor/?view=aspnetcore-3.1
-
